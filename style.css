@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+html,body{
+    height: 100%;
+}
+
+.sidebar{
+    width: 30%;
+    height: 100%;
+    position:fixed;
+    background-color: blueviolet;
+}
+.sidebar-pos{
+    position:absolute;
+}
+
+.img-sidebar img{
+    width: 80%;
+    border-radius: 50% ;
+    border:8px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;    
+}
+
+.menu a{
+    color:white;
+    font-size:100px;
+    text-decoration:none ;
+}
