@@ -1,0 +1,270 @@
+*{margin: 0; padding: 0}
+
+.img-sidebar img{
+    width: 80%;
+    border-radius: 50% ;
+    border:8px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "titulo titulo"
+                         "principal principal"
+                         "rodape rodape";}
+img{
+    width: 320px;
+    height: 240px;
+    vertical-align: middle;
+}
+.titulo{
+    grid-area: titulo;
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient(rgb(6, 44, 28), rgb(61, 134, 52), rgb(78, 97, 56));
+}
+.titulo h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 20vh;
+}
+.titulo h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 4vh;
+}
+.titulo h2{
+    text-align: center;
+    color: white;
+    margin-top: 2vh;
+}
+.titulo img{
+    margin: -7vh 0 0 0;
+}
+nav{
+    position: relative;
+    width: 40vw;
+    margin: -43vh 0 0 58vw;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 1vh 2vw 2vh 1vw;
+    padding: 20px 10px; 
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+#email{
+    position: relative;
+    width: 33vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin-left: 30vw;
+}
+input{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+button{
+    width: 5vw;
+    height: 7.5vh;
+    background-color: black;
+    border: none;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.titulo h6{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: -50vh;
+}
+.principal{
+    grid-area: principal;
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+}
+.principal h1{
+    text-align: center;
+    margin-top: 4vh;
+}
+.principal h6{
+    position: relative;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 2vh 0 0 2vw;
+}
+.cards{
+    margin-left: 7vw;
+}
+.card{
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 250px;
+    height: 280px;
+    margin: 5vh 0 10vh 10px;
+    border: 1px solid grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(209, 236, 245);
+    box-shadow: 0.5px 1.5px 7px grey;
+}
+.div6{
+    margin-left: 270px;
+}
+.image-card1{
+    width: 248px;
+    height: 140px;
+    background-image: url("tv.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.image-card2{
+    width: 248px;
+    height: 140px;
+    background-image: url("https://images.philips.com/is/image/PhilipsConsumer/FWM4000X_78-IMS-pt_BR?$jpglarge$&wid=1250");
+    background-size: cover;
+}
+.image-card3{
+    width: 248px;
+    height: 140px;
+    background-image: url("https://i.zst.com.br/thumbs/12/28/16/601732215.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.image-card4{
+    max-width: 100%;
+    height: 50%;
+    background-image: url("https://a-static.mlcdn.com.br/618x463/notebook-positivo-motion-red-q464c-intel-atom-quad-core-4gb-64gb-emmc-64gb-nuvem-141-led/magazineluiza/135301500/5e6c12bb2a76ae4b24f5250809450bc9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image-card5{
+    max-width: 248px;
+    height: 140px;
+    background-image: url("freezer.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image-card6{
+    width: 248px;
+    height: 140px;
+    background-image: url("https://conteudo.imguol.com.br/c/entretenimento/46/2020/07/21/relogio-de-pulso-1595359645219_v2_450x337.jpg");
+    background-size: cover;
+}
+.image-card7{
+    width: 248px;
+    height: 140px;
+    background-image: url("sapato.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image-card8{
+    width: 248px;
+    height: 140px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtRGWiGAybNl9WY2QuZUpI_N8u-ZxhU6Bgw&usqp=CAU");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+span{
+    display: block;
+    margin: 20px 10px 5px 15px;
+}
+.card h2{
+    width: 240px;
+    font-size: 15pt;
+    color: rgb(53, 123, 170);
+    margin: 10px 10px 5px 15px;
+}
+.card span{
+    position: relative;
+    margin-top: 10px;
+    font-size: 10pt;
+    width: auto;
+    text-align: justify;
+}
+.btn_comprar{
+    position: absolute;
+    width: 240px;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5px;
+    background-color: darkred;
+    box-shadow: 2px 3px 6px grey;
+    margin: 6vh 0 0 0;
+}
+.btn_comprar:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    box-shadow: 2px 3px 6px rgb(59, 58, 58);
+
+}
+.rodape{
+    grid-area: rodape;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 70vh;
+    background-color: rgb(212, 237, 252);
+}
+.rodape h1{
+    text-align: center;
+}
+.rodape h4{
+    width: 50vw;
+    margin-top: 1vh;
+    margin-left: 15vw;
+    text-align: center;
+}
+.comprar{
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 35vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 10vh 0 0 35vw;
+}
+.comprar h4{
+    margin: 15px;
+}
+.comprar input{
+    width: 25vw;
+    height: 4vh;
+    margin-left: 15px;
+    border-radius: 0;
+}
+.comprar img{
+    width: 24px;
+    height: 24px;
+    margin: 1vh 0 0 33vw;
+}
+.comprar button{
+    width: 25vw;
+    height: 5vh;
+    margin-left: 1vw;
+    border-radius: 0;
+}
+#total{
+    height: 10vh;
+    font-size: 3em;
+    color: darkred;
+    text-align: center;
+}
+
+.redes{
+    margin-left:16cm;
+}
+
