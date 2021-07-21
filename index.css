@@ -15,7 +15,8 @@
     grid-template-rows: auto;
     grid-template-areas: "titulo titulo"
                          "principal principal"
-                         "rodape rodape";}
+                         "rodape rodape";
+}
 img{
     width: 320px;
     height: 240px;
@@ -23,7 +24,9 @@ img{
 }
 .titulo{
     grid-area: titulo;
-    width: 100vw;
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
     height: 60vh;
     background-image: linear-gradient(rgb(6, 44, 28), rgb(61, 134, 52), rgb(78, 97, 56));
 }
@@ -91,7 +94,9 @@ button{
 }
 .principal{
     grid-area: principal;
-    width: 100vw;
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
     height: 60vh;
     background-color: white;
 }
@@ -108,6 +113,9 @@ button{
 }
 .cards{
     margin-left: 7vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card{
     position: relative;
@@ -124,46 +132,51 @@ button{
 }
 .div6{
     margin-left: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-card1{
     width: 248px;
     height: 140px;
     background-image: url("tv.jpeg");
-    background-size: auto;
+    background-size:cover contain;
     background-repeat: no-repeat;
 }
 .image-card2{
     width: 248px;
     height: 140px;
     background-image: url("https://images.philips.com/is/image/PhilipsConsumer/FWM4000X_78-IMS-pt_BR?$jpglarge$&wid=1250");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .image-card3{
     width: 248px;
     height: 140px;
     background-image: url("https://i.zst.com.br/thumbs/12/28/16/601732215.jpg");
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .image-card4{
-    max-width: 100%;
-    height: 50%;
+    width: 248px;
+    height: 140px;
     background-image: url("https://a-static.mlcdn.com.br/618x463/notebook-positivo-motion-red-q464c-intel-atom-quad-core-4gb-64gb-emmc-64gb-nuvem-141-led/magazineluiza/135301500/5e6c12bb2a76ae4b24f5250809450bc9.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .image-card5{
     max-width: 248px;
     height: 140px;
     background-image: url("freezer.jpeg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .image-card6{
     width: 248px;
     height: 140px;
     background-image: url("https://conteudo.imguol.com.br/c/entretenimento/46/2020/07/21/relogio-de-pulso-1595359645219_v2_450x337.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .image-card7{
     width: 248px;
@@ -214,17 +227,20 @@ span{
 }
 .rodape{
     grid-area: rodape;
-    width: 100vw;
-    height: 30vh;
-    margin-top: 70vh;
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    height: 60vh;
+    height:min-content;
+    margin-top: 100vmax;
     background-color: rgb(212, 237, 252);
 }
 .rodape h1{
     text-align: center;
 }
 .rodape h4{
-    width: 50vw;
-    margin-top: 1vh;
+    width: 70vw;
+    margin-top: 2vh;
     margin-left: 15vw;
     text-align: center;
 }
@@ -264,7 +280,51 @@ span{
     text-align: center;
 }
 
+
+
 .redes{
     margin-left:16cm;
+    display: block;
+ 
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  

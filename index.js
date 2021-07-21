@@ -1,4 +1,4 @@
-function fecharCompra(){
+function fecharCompra() {
     var abrirCompra = document.getElementById("comprar");
     abrirCompra.style.display = "block";
     var produto = document.getElementById("produto");
@@ -7,7 +7,11 @@ function fecharCompra(){
     document.getElementById("total") = total;
 }
 
-function fecharTelaCompra(){
-    var fechar = document.getElementById("comprar");
-    fechar.style.display = none;
+function fecharTelaCompra() {
+    var x = document.getElementById("comprar");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }
