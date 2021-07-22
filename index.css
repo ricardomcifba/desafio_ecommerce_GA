@@ -248,10 +248,10 @@ span{
     text-align: center;
 }
 .comprar{
-    position: absolute;
+    position:absolute;
     display: none;
-    background-color: white;
-    width: 35vw;
+    background-color: rgb(131, 170, 165);
+    width: 30vw;
     height: 50vh;
     border-radius: 10px;
     margin: 10vh 0 0 35vw;
@@ -268,7 +268,7 @@ span{
 .comprar img{
     width: 24px;
     height: 24px;
-    margin: 1vh 0 0 33vw;
+    margin: auto 0 0 auto;
 }
 .comprar button{
     width: 25vw;
