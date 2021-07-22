@@ -27,8 +27,9 @@ img{
     width: 100%;
     max-width: auto;
     margin: 0 auto;
-    height: 50vh;
+    height: 70vh;
     background-image: linear-gradient(rgb(6, 44, 28), rgb(61, 134, 52), rgb(78, 97, 56));
+    overflow:auto;
 }
 .titulo h3{
     position: relative;
