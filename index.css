@@ -27,7 +27,7 @@ img{
     width: 100%;
     max-width: auto;
     margin: 0 auto;
-    height: 60vh;
+    height: 50vh;
     background-image: linear-gradient(rgb(6, 44, 28), rgb(61, 134, 52), rgb(78, 97, 56));
 }
 .titulo h3{
@@ -97,8 +97,9 @@ button{
     width: 100%;
     max-width: auto;
     margin: 0 auto;
-    height: 60vh;
+    height: 100%;
     background-color: white;
+
 }
 .principal h1{
     text-align: center;
@@ -225,14 +226,15 @@ span{
     box-shadow: 2px 3px 6px rgb(59, 58, 58);
 
 }
+
 .rodape{
     grid-area: rodape;
     width: 100%;
     max-width: auto;
-    margin: 0 auto;
-    height: 60vh;
+    margin: auto;
+    height: 100vh;
     height:min-content;
-    margin-top: 100vmax;
+    margin-top: 30vw;
     background-color: rgb(212, 237, 252);
 }
 .rodape h1{
@@ -281,8 +283,8 @@ span{
 }
 
 .redes{
-    margin-left:16cm;
-    display: block;
+    justify-content: center;
+    display: flex;
  
 }
 
