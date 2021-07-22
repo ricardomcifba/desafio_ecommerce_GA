@@ -324,5 +324,13 @@ span{
     background: #cb2027;
     color: white;
   }
+
+  .itens{
+    width: 25vw;
+    height: 4vh;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 0;
+  }
   
   
