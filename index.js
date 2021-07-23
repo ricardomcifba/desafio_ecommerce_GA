@@ -1,10 +1,15 @@
-function fecharCompra() {
-    var abrirCompra = document.getElementById("comprar");
-    abrirCompra.style.display = "block";
-    var produto = document.getElementById("produto");
-    var qtde = parseFloat(document.getElementById("qtde")).value;
-    var total = 2499.50 * qtde;
-    document.getElementById("total") = total;
+function calcularTotal(){
+    var abreTela = document.getElementById("comprar");
+    abreTela.style.display = "block";
+    var quantidade = document.getElementById("qtde").value;
+    var total = 2499.50 * parseInt(quantidade);
+    if(Number.isNaN(total)){
+            
+    }
+    else{
+        document.getElementById("total").value = total.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+    }
+    
 }
 
 function fecharTelaCompra() {

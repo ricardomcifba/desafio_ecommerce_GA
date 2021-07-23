@@ -18,7 +18,8 @@
             <h3>Black Friday</h3>
             <h1>Aproveite todas as promoções pelos melhores preços de todos os tempos!</h1>
             <h2>Cadastre seu email para receber ofertas exclusivas.</h2>
-            <input type="email" placeholder="&nbsp;&nbsp;&nbsp;Preencha seu email aqui" id="email"><button type="submit">Cadastrar</button>
+            <input type="email" placeholder="&nbsp;&nbsp;&nbsp;Preencha seu email aqui" id="email">
+            <button class="cad" type="submit">Cadastrar</button>
             <nav>
                 <a href="#">VENDAS FUTURAS</a>
                 <a href="#">PARCERIAS</a>
@@ -35,56 +36,56 @@
                         <div class="image-card1"></div>
                         <span>TV LED 43" LG</span>
                         <h2>R$ 2.499,50</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
 
                     <div class="div2 card">
                         <div class="image-card2"></div>
                         <span>Mini System Hi-Fi Philips 3300W</span>
                         <h2>R$ 699,900</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
 
                     <div class="div3 card">
                         <div class="image-card3"></div>
                         <span>Bicicleta Colli Bikes 21 marchas aro 26</span>
                         <h2>R$ 916,88</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
 
                     <div class="div4 card">
                         <div class="image-card4"></div>
                         <span>Notebook Positivo Red Intel Atom</span>
                         <h2>R$ 1.661.65</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
 
                     <div class="div5 card">
                         <div class="image-card5"></div>
                         <span>Freezer Horizontal Philco 1 Porta 246L</span>
                         <h2>R$ 2.199,90</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
 
                     <div class="div6 card">
                         <div class="image-card6"></div>
                         <span>Relógio social masculino CRRJU</span>
                         <h2>R$ 261,61</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
 
                     <div class="div7 card">
                         <div class="image-card7"></div>
                         <span>Sapato social envernizado Gofer</span>
                         <h2>R$ 174,51</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
                     
                     <div class="div8 card">
                         <div class="image-card8"></div>
                         <span>Óculos de Sol Armani AX4080SL</span>
                         <h2>R$ 359,00</h2>
-                        <button class="btn_comprar" onclick="fecharCompra()">Comprar</button>
+                        <button class="btn_comprar" onclick="calcularTotal()">Comprar</button>
                     </div>
                 </div>
         </div>
@@ -117,7 +118,7 @@
               </select>
             <h4>Quantidade</h4>
             <input type="text" id="qtde"><br/><br/>
-            <button onclick="fecharCompra()">Calcular total</button><br/><br/>
+            <button class="fechaCompra" onclick="calcularTotal()">Calcular total</button><br/><br/>
             <input type="text" id="total">
         </div>
     
