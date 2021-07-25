@@ -65,6 +65,7 @@ nav{
     width: 40vw;
     margin: -43vh 0 0 58vw;
     z-index: 2;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -112,6 +113,22 @@ button{
     background-color: white;
 
 }
+.produto{
+    text-align: center;
+}
+
+.cad1{
+    position: relative;
+    width: 20vw;
+    height: 7.5vh;
+    background-color: rgb(168, 55, 55);
+    border: none;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+
 .principal h1{
     text-align: center;
     margin-top: 4vh;

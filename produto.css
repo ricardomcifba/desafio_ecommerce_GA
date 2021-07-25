@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    background-image:linear-gradient(rgb(6, 44, 28), rgb(61, 134, 52), rgb(78, 97, 56));
 
 }
 
