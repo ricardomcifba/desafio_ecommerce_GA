@@ -28,9 +28,13 @@ img{
     width: 100%;
     max-width: auto;
     margin: 0 auto;
-    height: 70vh;
+    height: 50vh;
     background-image: linear-gradient(rgb(6, 44, 28), rgb(61, 134, 52), rgb(78, 97, 56));
     overflow:auto;
+    justify-self: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
 }
 .titulo h3{
     position: relative;
@@ -51,6 +55,10 @@ img{
 }
 .titulo img{
     margin: -7vh 0 0 0;
+}
+
+.titulo button{
+    justify-content: center;
 }
 nav{
     position: relative;
@@ -80,7 +88,8 @@ input{
     border-top-left-radius: 20px;
 }
 button{
-    width: 5vw;
+    position: relative;
+    width: 20vw;
     height: 7.5vh;
     background-color: black;
     border: none;

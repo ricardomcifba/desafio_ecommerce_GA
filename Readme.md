@@ -11,3 +11,5 @@ O processo de compra está com bug, no qual a janela não está identificando o 
 Faltou aplicar recurso de Responsividade.
 
 Para executar o projeto, basta cloná-lo em uma pasta. Abrir com vc code. E executar com live server.
+
+
