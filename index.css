@@ -264,6 +264,7 @@ span{
     height:min-content;
     margin-top: 30vw;
     background-color: rgb(212, 237, 252);
+    text-align: center;
 }
 .rodape h1{
     text-align: center;
@@ -359,12 +360,12 @@ span{
   }
   
   .fa-instagram {
-    background: #125688;
+    background: #b41e3f;
     color: white;
   }
   
-  .fa-pinterest {
-    background: #cb2027;
+  .fa-github {
+    background: #000000;
     color: white;
   }
 
